@@ -1,0 +1,304 @@
+2021-08-10 23:30:40.824 DEBUG [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:56 -Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-10 23:36:15.488 DEBUG [http-nio-8080-exec-2]c.high.concurrency.currency02.mapper.UserMapper.getCount.debug:137 -==>  Preparing: select count(*) from user
+2021-08-10 23:36:15.538 DEBUG [http-nio-8080-exec-2]c.high.concurrency.currency02.mapper.UserMapper.getCount.debug:137 -==> Parameters: 
+2021-08-10 23:36:15.727 DEBUG [http-nio-8080-exec-2]c.high.concurrency.currency02.mapper.UserMapper.getCount.debug:137 -<==      Total: 1
+2021-08-10 23:36:15.741 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:15.744 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 0(Integer), 10000(Integer)
+2021-08-10 23:36:15.873 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:15.886 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:15.887 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 10000(Integer), 10000(Integer)
+2021-08-10 23:36:15.972 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:15.984 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:15.984 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 20000(Integer), 10000(Integer)
+2021-08-10 23:36:16.069 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:16.079 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:16.080 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 30000(Integer), 10000(Integer)
+2021-08-10 23:36:19.817 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:19.829 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:19.830 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 40000(Integer), 10000(Integer)
+2021-08-10 23:36:22.261 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:22.272 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:22.272 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 50000(Integer), 10000(Integer)
+2021-08-10 23:36:24.377 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:24.390 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:24.391 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 60000(Integer), 10000(Integer)
+2021-08-10 23:36:26.547 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:26.562 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:26.568 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 70000(Integer), 10000(Integer)
+2021-08-10 23:36:28.353 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:28.368 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:28.369 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 80000(Integer), 10000(Integer)
+2021-08-10 23:36:30.485 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:30.498 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:30.499 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 90000(Integer), 10000(Integer)
+2021-08-10 23:36:32.725 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:32.736 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:32.737 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 100000(Integer), 10000(Integer)
+2021-08-10 23:36:35.053 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:35.064 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:35.065 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 110000(Integer), 10000(Integer)
+2021-08-10 23:36:36.951 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:36.963 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:36.964 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 120000(Integer), 10000(Integer)
+2021-08-10 23:36:39.239 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:39.255 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:39.255 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 130000(Integer), 10000(Integer)
+2021-08-10 23:36:41.409 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:41.428 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:41.428 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 140000(Integer), 10000(Integer)
+2021-08-10 23:36:43.704 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:43.716 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:43.716 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 150000(Integer), 10000(Integer)
+2021-08-10 23:36:45.945 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:45.958 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:45.958 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 160000(Integer), 10000(Integer)
+2021-08-10 23:36:48.200 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:48.210 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:48.211 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 170000(Integer), 10000(Integer)
+2021-08-10 23:36:50.491 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:50.506 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:50.506 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 180000(Integer), 10000(Integer)
+2021-08-10 23:36:53.046 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:53.057 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:53.058 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 190000(Integer), 10000(Integer)
+2021-08-10 23:36:54.792 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:54.805 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:54.806 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 200000(Integer), 10000(Integer)
+2021-08-10 23:36:57.114 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:57.125 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:57.125 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 210000(Integer), 10000(Integer)
+2021-08-10 23:36:59.424 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:36:59.435 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:36:59.435 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 220000(Integer), 10000(Integer)
+2021-08-10 23:37:01.671 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:01.946 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:01.947 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 230000(Integer), 10000(Integer)
+2021-08-10 23:37:03.852 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:03.872 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:03.873 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 240000(Integer), 10000(Integer)
+2021-08-10 23:37:06.125 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:06.138 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:06.138 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 250000(Integer), 10000(Integer)
+2021-08-10 23:37:08.329 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:08.342 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:08.343 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 260000(Integer), 10000(Integer)
+2021-08-10 23:37:10.409 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:10.421 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:10.422 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 270000(Integer), 10000(Integer)
+2021-08-10 23:37:12.819 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:12.832 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:12.833 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 280000(Integer), 10000(Integer)
+2021-08-10 23:37:14.970 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:14.983 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:14.984 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 290000(Integer), 10000(Integer)
+2021-08-10 23:37:17.398 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:17.410 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:17.410 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 300000(Integer), 10000(Integer)
+2021-08-10 23:37:19.623 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:19.639 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:19.640 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 310000(Integer), 10000(Integer)
+2021-08-10 23:37:21.386 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:21.400 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:21.401 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 320000(Integer), 10000(Integer)
+2021-08-10 23:37:23.816 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:23.826 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:23.827 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 330000(Integer), 10000(Integer)
+2021-08-10 23:37:25.942 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:25.954 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:25.954 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 340000(Integer), 10000(Integer)
+2021-08-10 23:37:28.457 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:28.468 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:28.468 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 350000(Integer), 10000(Integer)
+2021-08-10 23:37:30.692 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:30.712 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:30.712 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 360000(Integer), 10000(Integer)
+2021-08-10 23:37:32.610 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:32.621 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:32.622 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 370000(Integer), 10000(Integer)
+2021-08-10 23:37:35.021 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:35.032 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:35.033 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 380000(Integer), 10000(Integer)
+2021-08-10 23:37:37.078 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:37.376 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:37.377 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 390000(Integer), 10000(Integer)
+2021-08-10 23:37:39.388 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:39.402 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:39.403 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 400000(Integer), 10000(Integer)
+2021-08-10 23:37:41.826 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:41.838 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:41.838 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 410000(Integer), 10000(Integer)
+2021-08-10 23:37:44.098 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:44.112 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:44.112 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 420000(Integer), 10000(Integer)
+2021-08-10 23:37:46.339 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:46.350 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:46.351 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 430000(Integer), 10000(Integer)
+2021-08-10 23:37:47.965 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:48.233 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:48.234 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 440000(Integer), 10000(Integer)
+2021-08-10 23:37:50.570 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:50.585 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:50.586 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 450000(Integer), 10000(Integer)
+2021-08-10 23:37:52.881 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:52.900 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:52.900 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 460000(Integer), 10000(Integer)
+2021-08-10 23:37:54.922 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:54.933 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:54.934 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 470000(Integer), 10000(Integer)
+2021-08-10 23:37:57.129 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:57.139 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:57.140 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 480000(Integer), 10000(Integer)
+2021-08-10 23:37:59.368 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:37:59.379 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:37:59.379 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 490000(Integer), 10000(Integer)
+2021-08-10 23:38:02.013 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:02.032 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:02.033 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 500000(Integer), 10000(Integer)
+2021-08-10 23:38:04.065 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:04.081 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:04.082 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 510000(Integer), 10000(Integer)
+2021-08-10 23:38:06.072 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:06.083 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:06.084 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 520000(Integer), 10000(Integer)
+2021-08-10 23:38:08.065 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:08.081 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:08.081 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 530000(Integer), 10000(Integer)
+2021-08-10 23:38:10.562 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:10.573 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:10.573 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 540000(Integer), 10000(Integer)
+2021-08-10 23:38:12.733 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:12.745 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:12.745 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 550000(Integer), 10000(Integer)
+2021-08-10 23:38:15.064 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:15.074 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:15.075 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 560000(Integer), 10000(Integer)
+2021-08-10 23:38:17.188 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:17.204 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:17.204 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 570000(Integer), 10000(Integer)
+2021-08-10 23:38:19.501 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:19.512 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:19.512 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 580000(Integer), 10000(Integer)
+2021-08-10 23:38:21.637 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:21.919 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:21.920 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 590000(Integer), 10000(Integer)
+2021-08-10 23:38:24.171 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:24.185 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:24.185 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 600000(Integer), 10000(Integer)
+2021-08-10 23:38:26.187 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:26.201 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:26.201 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 610000(Integer), 10000(Integer)
+2021-08-10 23:38:28.270 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:28.281 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:28.282 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 620000(Integer), 10000(Integer)
+2021-08-10 23:38:30.371 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:30.382 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:30.383 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 630000(Integer), 10000(Integer)
+2021-08-10 23:38:32.497 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:32.774 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:32.775 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 640000(Integer), 10000(Integer)
+2021-08-10 23:38:35.131 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:35.143 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:35.143 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 650000(Integer), 10000(Integer)
+2021-08-10 23:38:37.490 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:37.504 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:37.504 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 660000(Integer), 10000(Integer)
+2021-08-10 23:38:39.639 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:39.651 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:39.651 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 670000(Integer), 10000(Integer)
+2021-08-10 23:38:41.835 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:41.847 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:41.847 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 680000(Integer), 10000(Integer)
+2021-08-10 23:38:43.923 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:43.934 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:43.935 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 690000(Integer), 10000(Integer)
+2021-08-10 23:38:46.108 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:46.118 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:46.119 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 700000(Integer), 10000(Integer)
+2021-08-10 23:38:48.496 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:48.506 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:48.507 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 710000(Integer), 10000(Integer)
+2021-08-10 23:38:50.404 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:50.416 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:50.416 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 720000(Integer), 10000(Integer)
+2021-08-10 23:38:52.823 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:53.054 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:53.054 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 730000(Integer), 10000(Integer)
+2021-08-10 23:38:55.028 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:55.039 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:55.039 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 740000(Integer), 10000(Integer)
+2021-08-10 23:38:56.895 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:56.905 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:56.906 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 750000(Integer), 10000(Integer)
+2021-08-10 23:38:59.032 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:38:59.042 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:38:59.043 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 760000(Integer), 10000(Integer)
+2021-08-10 23:39:01.501 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:01.512 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:01.512 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 770000(Integer), 10000(Integer)
+2021-08-10 23:39:03.812 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:03.822 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:03.823 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 780000(Integer), 10000(Integer)
+2021-08-10 23:39:05.880 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:05.891 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:05.891 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 790000(Integer), 10000(Integer)
+2021-08-10 23:39:08.551 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:08.563 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:08.563 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 800000(Integer), 10000(Integer)
+2021-08-10 23:39:10.504 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:10.515 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:10.515 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 810000(Integer), 10000(Integer)
+2021-08-10 23:39:12.674 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:12.692 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:12.693 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 820000(Integer), 10000(Integer)
+2021-08-10 23:39:14.788 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:14.799 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:14.800 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 830000(Integer), 10000(Integer)
+2021-08-10 23:39:17.363 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:17.375 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:17.375 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 840000(Integer), 10000(Integer)
+2021-08-10 23:39:19.831 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:19.843 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:19.843 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 850000(Integer), 10000(Integer)
+2021-08-10 23:39:21.641 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:21.651 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:21.652 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 860000(Integer), 10000(Integer)
+2021-08-10 23:39:23.704 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:23.714 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:23.715 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 870000(Integer), 10000(Integer)
+2021-08-10 23:39:26.512 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:26.526 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:26.527 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 880000(Integer), 10000(Integer)
+2021-08-10 23:39:28.942 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:28.953 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:28.954 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 890000(Integer), 10000(Integer)
+2021-08-10 23:39:30.596 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:30.610 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:30.610 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 900000(Integer), 10000(Integer)
+2021-08-10 23:39:32.754 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:32.766 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:32.766 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 910000(Integer), 10000(Integer)
+2021-08-10 23:39:35.223 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:35.238 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:35.238 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 920000(Integer), 10000(Integer)
+2021-08-10 23:39:37.150 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:37.163 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:37.163 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 930000(Integer), 10000(Integer)
+2021-08-10 23:39:39.304 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:39.322 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:39.322 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 940000(Integer), 10000(Integer)
+2021-08-10 23:39:41.564 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:41.581 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:41.581 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 950000(Integer), 10000(Integer)
+2021-08-10 23:39:44.000 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:44.012 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:44.012 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 960000(Integer), 10000(Integer)
+2021-08-10 23:39:45.957 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:45.969 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:45.969 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 970000(Integer), 10000(Integer)
+2021-08-10 23:39:48.182 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:48.193 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:48.194 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 980000(Integer), 10000(Integer)
+2021-08-10 23:39:50.474 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
+2021-08-10 23:39:50.805 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==>  Preparing: select * from user limit ?, ?
+2021-08-10 23:39:50.807 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -==> Parameters: 990000(Integer), 10000(Integer)
+2021-08-10 23:39:53.142 DEBUG [http-nio-8080-exec-2]c.h.concurrency.currency02.mapper.UserMapper.selectPage.debug:137 -<==      Total: 10000
