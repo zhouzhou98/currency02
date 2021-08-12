@@ -19,7 +19,7 @@ public class UserServiceImpl implements IUserService {
     @Override
     public String exportData() {
         ExecutorService pool = Executors.newFixedThreadPool(16);
-        int pageSize = 10000;
+        int pageSize = PageUtil.pageSize;
         // 获取数据总量
         Integer count = userMapper.getCount();
         // 获取总页数

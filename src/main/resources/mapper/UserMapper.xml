@@ -94,4 +94,7 @@
 <select id="selectPage" resultType="com.high.concurrency.currency02.domain.User">
     select id, `name` from user limit #{param1}, #{param2}
 </select>
+<select id="selectAll" resultMap="BaseResultMap">
+select id, `name` from user
+</select>
 </mapper>

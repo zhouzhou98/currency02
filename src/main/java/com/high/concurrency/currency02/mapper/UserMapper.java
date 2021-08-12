@@ -22,4 +22,6 @@ public interface UserMapper {
 
     List<User> selectPage(@Param("begin") int begin, @Param("pageSize") int pageSize);
 
+    List<User> selectAll();
+
 }
