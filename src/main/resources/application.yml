@@ -10,17 +10,17 @@ spring:
   # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://xxx:3306/high_concurrency?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    url: jdbc:mysql://localhost:3306/high_concurrency?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-    password: 123456
+    password: zxcvbnm123.
     type: com.alibaba.druid.pool.DruidDataSource
     platform: mysql
     # 连接池配置
     druid:
       # 初始化大小，最小，最大
-      initial-size: 5
+      initial-size: 10
       max-active: 100
-      min-idle: 1
+      min-idle: 10
       # 配置获取连接等待超时的时间
       max-wait: 60000
       # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位毫秒

@@ -38,3 +38,131 @@
 2021-08-12 08:19:03.540 INFO  [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
 2021-08-12 08:19:03.541 INFO  [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
 2021-08-12 08:32:26.321 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-08-12 09:02:57.599 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 2036 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 09:02:57.602 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 09:02:57.647 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 09:02:57.648 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 09:02:58.064 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 09:02:58.068 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 09:02:58.068 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 09:02:58.068 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 09:02:58.090 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 09:02:58.090 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 442 ms
+2021-08-12 09:02:58.131 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 09:03:00.989 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-12 09:03:01.216 INFO  [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-08-12 09:03:01.231 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 09:03:01.242 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 09:03:01.248 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarted:61 -Started Currency02Application in 23.916 seconds (JVM running for 29.199)
+2021-08-12 09:14:04.550 INFO  [http-nio-8080-exec-9]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 09:14:04.555 INFO  [http-nio-8080-exec-9]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-08-12 09:14:04.557 INFO  [http-nio-8080-exec-9]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2021-08-12 12:51:28.959 INFO  [Thread-54]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-08-12 12:51:49.104 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 2036 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 12:51:49.105 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 12:51:49.275 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 12:51:49.275 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:49.275 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 12:51:49.275 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 12:51:49.278 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 12:51:49.279 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 165 ms
+2021-08-12 12:51:49.290 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 12:51:51.748 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-2} inited
+2021-08-12 12:51:51.859 INFO  [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-08-12 12:51:51.871 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:51.872 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 12:51:51.874 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarted:61 -Started Currency02Application in 22.851 seconds (JVM running for 12627.771)
+2021-08-12 12:51:51.875 INFO  [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2021-08-12 12:51:55.265 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 8909 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 12:51:55.267 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 12:51:55.311 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 12:51:55.312 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 12:51:55.747 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 12:51:55.752 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:55.752 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 12:51:55.753 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 12:51:55.777 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 12:51:55.777 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 465 ms
+2021-08-12 12:51:55.818 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 12:51:58.710 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-12 12:51:58.953 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:58.964 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-08-12 12:51:58.965 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Pausing ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:58.965 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2021-08-12 12:51:58.966 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Stopping ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:58.967 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Destroying ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:51:58.971 INFO  [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-12 12:55:09.175 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 9377 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 12:55:09.176 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 12:55:09.221 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 12:55:09.221 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 12:55:09.623 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 12:55:09.626 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:55:09.626 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 12:55:09.626 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 12:55:09.648 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 12:55:09.648 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 427 ms
+2021-08-12 12:55:09.683 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 12:55:12.733 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-12 12:55:12.953 INFO  [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-08-12 12:55:12.969 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 12:55:12.980 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 12:55:12.986 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarted:61 -Started Currency02Application in 24.091 seconds (JVM running for 29.381)
+2021-08-12 12:55:30.307 INFO  [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 12:55:30.307 INFO  [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-08-12 12:55:30.308 INFO  [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 0 ms
+2021-08-12 17:37:37.677 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-08-12 17:38:17.193 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 12974 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 17:38:17.194 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 17:38:17.231 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 17:38:17.231 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 17:38:17.682 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 17:38:17.686 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 17:38:17.687 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 17:38:17.687 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 17:38:17.713 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 17:38:17.713 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 481 ms
+2021-08-12 17:38:17.757 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 17:38:23.410 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-12 17:38:23.629 INFO  [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-08-12 17:38:23.658 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 17:38:23.664 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarted:61 -Started Currency02Application in 26.766 seconds (JVM running for 32.161)
+2021-08-12 17:38:23.681 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-08-12 20:38:42.573 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 14440 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 20:38:42.577 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 20:38:42.632 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 20:38:42.633 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 20:38:43.060 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 20:38:43.064 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 20:38:43.064 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 20:38:43.064 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 20:38:43.086 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 20:38:43.086 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 453 ms
+2021-08-12 20:38:43.124 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 20:38:47.461 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-12 20:38:47.469 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2021-08-12 20:38:47.485 INFO  [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-12 20:40:43.119 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarting:55 -Starting Currency02Application using Java 1.8.0_302 on suyuzhoudeMacBook-Air.local with PID 14451 (/Users/suyuzhou/project/springboot/currency02/target/classes started by suyuzhou in /Users/suyuzhou/project/springboot/currency02)
+2021-08-12 20:40:43.121 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-08-12 20:40:43.172 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 20:40:43.173 INFO  [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 20:40:43.574 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2021-08-12 20:40:43.577 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 20:40:43.578 INFO  [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-08-12 20:40:43.578 INFO  [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 20:40:43.598 INFO  [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-08-12 20:40:43.599 INFO  [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 426 ms
+2021-08-12 20:40:43.634 INFO  [restartedMain]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-08-12 20:40:44.025 INFO  [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-08-12 20:40:44.214 INFO  [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-08-12 20:40:44.229 INFO  [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 20:40:44.242 INFO  [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 20:40:44.248 INFO  [restartedMain]com.high.concurrency.currency02.Currency02Application.logStarted:61 -Started Currency02Application in 21.406 seconds (JVM running for 26.698)
+2021-08-12 20:41:19.244 INFO  [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 20:41:19.245 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-08-12 20:41:19.246 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-08-12 21:07:06.433 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
